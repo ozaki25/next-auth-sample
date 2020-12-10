@@ -146,6 +146,18 @@
   resolved "https://registry.yarnpkg.com/@panva/asn1.js/-/asn1.js-1.0.0.tgz#dd55ae7b8129e02049f009408b97c61ccf9032f6"
   integrity sha512-UdkG3mLEqXgnlKsWanWcgb6dOjUzJ+XC5f+aWw30qrtjxeNUSfKX1cd5FBzOaXQumoe9nIqeZUvrRJS03HCCtw==
 
+"@prisma/client@^2.13.0":
+  version "2.13.0"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-2.13.0.tgz#2c9bddfced133fbcb35c6bb2ca1b3b172cdc9bc3"
+  integrity sha512-osu9oRFWYNU3s+khj7D0xn28yGbk9nUWPG6VYDGIisBf0OTDB3STisCa0O0k5rzk1GpdxLiGJaHpqIo40RkMLw==
+  dependencies:
+    "@prisma/engines-version" "2.13.0-32.833ab05d2a20e822f6736a39a27de4fc8f6b3e49"
+
+"@prisma/engines-version@2.13.0-32.833ab05d2a20e822f6736a39a27de4fc8f6b3e49":
+  version "2.13.0-32.833ab05d2a20e822f6736a39a27de4fc8f6b3e49"
+  resolved "https://registry.yarnpkg.com/@prisma/engines-version/-/engines-version-2.13.0-32.833ab05d2a20e822f6736a39a27de4fc8f6b3e49.tgz#e2c25298269a0a89fe0931720695a0fd979fd6f6"
+  integrity sha512-OsToEhPo8OKOW2RmfjrQs1WRWX6omTsrBVMQLYKR7p3ijNBXFjCw9fk4x5xcnLZvADYR/rUIxjEK2YR+r/RK3w==
+
 "@sqltools/formatter@1.2.2":
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/@sqltools/formatter/-/formatter-1.2.2.tgz#9390a8127c0dcba61ebd7fdcc748655e191bdd68"
