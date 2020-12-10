@@ -1,8 +1,9 @@
 import NextAuth from 'next-auth';
 import Providers from 'next-auth/providers';
+import Adapters from 'next-auth/adapters';
+import { PrismaClient } from '@prisma/client';
 
-console.log(process.env.GITHUB_ID);
-console.log(process.env.GITHUB_SECRET);
+const prisma = new PrismaClient();
 
 const options = {
   providers: [
@@ -11,8 +12,7 @@ const options = {
       clientSecret: process.env.GITHUB_SECRET,
     }),
   ],
-
-  database: process.env.DATABASE_URL,
+  adapter: Adapters.Prisma.Adapter({ prisma }),
 };
 
 export default (req, res) => NextAuth(req, res, options);
